@@ -5,8 +5,8 @@ Environment-agnostic TypeScript ESM utilities for Airtable formulas.
 This repo shape is meant for direct source-file imports, including URL imports via services such as esm.sh over GitHub paths.
 
 ```ts
-const { beautifyFormula } = await import('https://esm.sh/gh/<user>/<repo>/src/beautify.ts');
-const { minifyFormula } = await import('https://esm.sh/gh/<user>/<repo>/src/minify.ts');
+const { beautifyFormula } = await import('https://esm.sh/gh/ffkit/airtable/src/beautify.ts');
+const { minifyFormula } = await import('https://esm.sh/gh/ffkit/airtable/src/minify.ts');
 ```
 
 ## Design
